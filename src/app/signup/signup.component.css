@@ -1,0 +1,59 @@
+.navbar-brand{
+    color: white;
+
+}
+
+.nav-items{
+    margin: 140px;
+    padding: 90px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-form .content {
+    padding: 35px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .login-form .input-field {
+    padding: 12px 5px;
+  }
+  .login-form .input-field input {
+    font-size: 16px;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    width: 400px;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+
+  
+  
+.card {
+    border: none;
+    width: 500px;
+    height: 450px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons {
+    margin-left: 30px;
+}
+
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: grey;
+}

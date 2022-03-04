@@ -1,0 +1,14 @@
+.navbar-brand{
+    color: white;
+
+}
+
+.nav-items{
+    margin: 140px;
+    padding: 90px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

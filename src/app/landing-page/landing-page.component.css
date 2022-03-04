@@ -1,0 +1,27 @@
+.navbar-brand{
+    color: white;
+
+}
+
+.nav-items{
+    margin: 140px;
+    padding: 90px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.imgdiv {
+    padding: 10px;
+    margin-left: 300px;
+    
+}
+
+p {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(197, 241, 197);
+}

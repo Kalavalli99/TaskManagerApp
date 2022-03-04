@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(64, 201, 64);">
+                <div class="container-fluid">
+                  <a class="navbar-brand" routerLink="/dashboard"><strong>Task Manager</strong></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                    <form class="d-flex">
+                      
+                      <button class="btn btn-white" type="submit" style="margin: 2px; color: white;"><a routerLink="/signup"><strong>Signup</strong></a></button>
+                      <button class="btn btn-white" type="submit" style="margin: 2px; color: white;"><a routerLink="/login"><strong>Login</strong></a></button>
+        
+                    </form>
+                  
+                </div>
+              </nav>
+        </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <div class="login-form">
+                        <form [formGroup]="loginForm" (ngSubmit)="login()">
+                        
+                            <div class="content">
+                              <div class="input-field">
+                                <input formControlName="email" type="email" placeholder="Your email" autocomplete="nope">
+                                
+                              </div>
+                              <div class="input-field">
+                                <input formControlName="password" type="password" placeholder="Your Password" autocomplete="new-password">
+                                <pre class="tab">Should be at least 8 characters long.                                       0/8</pre>
+                              </div>
+                              
+                            </div>
+                            <div class="buttons">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                            
+                          </form>
+                    
+                    </div>
+                      
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

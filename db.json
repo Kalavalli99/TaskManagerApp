@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "tasktitle": "Shopping",
+      "taskdesc": "watch",
+      "status": "Completed"
+    }
+  ],
+  "signupUsers": [
+    {
+      "name": "kalavalli",
+      "email": "kala@tcs.com",
+      "password": "Kaal2344",
+      "birthdate": "2022-03-19",
+      "id": 1
+    },
+    {
+      "name": "priya",
+      "email": "priya@gmail.com",
+      "password": "priya@00",
+      "birthdate": "2022-03-25",
+      "id": 2
+    },
+    {
+      "name": "Dharshani",
+      "email": "dharshani@gmail.com",
+      "password": "dharshu@99",
+      "birthdate": "2022-03-08",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
